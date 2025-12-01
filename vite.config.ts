@@ -18,6 +18,12 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
+      },
+      build: {
+        rollupOptions: {
+          external: ['exif-js'], // 将 exif-js 标记为外部依赖
+        }
       }
     };
 });
+
