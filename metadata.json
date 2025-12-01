@@ -1,0 +1,5 @@
+{
+  "name": "TrueSight Image Forensics",
+  "description": "Professional multimodal image authenticity analysis tool using Gemini 2.5.",
+  "requestFramePermissions": []
+}
